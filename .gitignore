@@ -1,0 +1,34 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.next/
+.vite/
+.vinext/
+*.tsbuildinfo
+
+# 本地运行状态：D1/SQLite 存档、wrangler 日志与缓存（含游戏存档，勿上传）
+.wrangler/
+
+# 云端部署插件生成的目录（本地游玩不需要，缺失时自动退回本地模式）
+.openai/
+
+# 环境变量与密钥
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# 测试存档备份（本地专属，不入库、不上传）
+Saves/
+
+# 本地交接记录（含设备路径与试玩信息，不公开上传）
+/先看这里.md
+/接手注意事项.md
+/提交嘱托.md
+/给Agent的开场话.md
+
+# 日志与系统文件
+*.log
+.DS_Store
+._*
+Thumbs.db

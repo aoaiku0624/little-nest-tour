@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787884964221,
+      "tag": "0000_complete_lilandra",
+      "breakpoints": true
+    }
+  ]
+}
